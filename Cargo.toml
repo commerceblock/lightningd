@@ -12,7 +12,7 @@ documentation = "https://docs.rs/lightningd/"
 [dependencies]
 clightningrpc = "0.2.0"
 tempfile = "~3.2.0"
-bitcoind = { git = "https://github.com/commerceblock/bitcoind" }
+bitcoind = { git = "https://github.com/commerceblock/bitcoind", tag = "0.26.1" }
 log = "0.4"
 
 [dev-dependencies]
